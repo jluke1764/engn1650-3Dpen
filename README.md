@@ -2,13 +2,16 @@
 
 ## subrepos
 ### engn1650-3Dpen-mcu
+#### https://github.com/jluke1764/engn1650-3Dpen-mcu
+
 MCU code: converts user action to signals
 * input: motion, sensed by imu —> i2c 
 * input: button presses
 * output: orientation of pen, speed of pen, what light is being tracked, buttons pressed
   * may need to do integration of imu and magnetometer
 
-### engn1650-3Dpen-driver
+### engn1650-3Dpen-pc
+#### https://github.com/jluke1764/engn1650-3Dpen-pc
 
 PC code: converts MCU signals to usable variables
 * input: output of MCU → usb
@@ -25,7 +28,9 @@ PC code: converts MCU signals to usable variables
   * how to get info from camera in real time?
 * output: pen x, y, z position; speed of pen; button presses
 
-### engn1650-3Dpen-application
+### engn1650-3Dpen-app
+#### https://github.com/jluke1764/engn1650-3Dpen-app
+
 Application code: converts usable variables to display
 * input: output of PC
 * test input: csv file of coordinates/pen inputs over time
