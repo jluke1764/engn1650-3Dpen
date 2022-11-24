@@ -1,0 +1,12 @@
+[submodule "mcu"]
+	path = mcu
+	url = git@github.com:jluke1764/engn1650-3Dpen-mcu.git
+[submodule "engn1650-3Dpen-mcu"]
+	path = engn1650-3Dpen-mcu
+	url = git@github.com:jluke1764/engn1650-3Dpen-mcu.git
+[submodule "engn1650-3Dpen-pc"]
+	path = engn1650-3Dpen-pc
+	url = git@github.com:jluke1764/engn1650-3Dpen-pc.git
+[submodule "engn1650-3Dpen-app"]
+	path = engn1650-3Dpen-app
+	url = git@github.com:jluke1764/engn1650-3Dpen-app.git
