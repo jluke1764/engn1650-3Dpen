@@ -21,23 +21,28 @@
 
     4. if you want to push changes, make sure you are in the correct directory in the terminal. Run git status to see what files have changed. 
     
-    5. Add the desired files using git add <filename>
+    5. Add the desired files using git add filename
 
-    6. Run git commit -m '<message about the changes you made>' 
+    6. Run git commit -m 'description of changes' 
 
     7. Run git push to fully update your changes to the repo
 
     8. The higher level repos will still be pointing towards an older version of the sub module. If you go up to the next repo and run git status, you should see that the directory with the submodule is different. Then do git add, git commit, and git push to fully update.
 
-* 
+* When making new features, it is good practice to use different branches to have good version control for the code. 
+    * main is the main master branch that should contain the most updated working version of the code 
+    * develop is the branch where changes are happening
+    * we can work on different features in branches off of develop and then merged into develop. When we are ready, we will merge develop with main
+    * we have to be careful of merge conflicts
+    * we have to be careful which branch we are working in
 
 # useful git commands
-* git status
-* git log
+* git status 
+* git log 
 * git branch
 * git add
 * git commit -m
 * git push
 * git pull
-* git <command> --help
-* git diff
+* git --help
+* git diff 
